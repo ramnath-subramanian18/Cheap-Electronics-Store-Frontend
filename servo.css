@@ -1,0 +1,113 @@
+#more {display: none;}
+h1
+{text-align:center;
+font-family:arial;
+padding:10px;
+font-size:25px;
+  position: relative;
+  top: 5px;
+  left: 5px
+}
+img
+{
+width:35%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 70px;
+  left: 5px
+}
+p
+{font-size:40px;
+  position: relative;
+  top: 40px;
+  left: 5px
+}
+.button
+{border: red;
+  padding: 18px;
+  color: white;
+  background-color:#FFD700;
+  text-align: center;
+  cursor: pointer;
+  width: 17%;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+  left: 5px
+}
+.button1
+{border: red;
+  padding: 18px;
+  color: white;
+  background-color:orange;
+  text-align: center;
+  cursor: pointer;
+  width: 17%;
+  font-size: 20px;
+position: relative;
+  top: -73px;;
+  left: 270px
+}
+p3
+{position: relative;
+  top: -580px;
+  left: 445px;
+  width: 500px;
+  font-size: 25px;
+}
+p1
+{position: relative;
+  top: -560px;
+  left: 700px;
+
+ 
+  }
+h2
+{position: relative;
+  top: -550px;
+  left: 690px;
+  width: 500px;
+}
+.table
+{position: relative;
+  top: -550px;
+  left: 690px;
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th
+{
+  font-size: 25px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+td
+{
+border: 1px solid black;
+border-collapse: collapse;
+padding: 10px;
+}
+button2
+{border: red;
+  padding: 10px;
+  color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 9%;
+  font-size: 20px;
+ position: relative;
+  top: -580px;
+  left: 680px;
+}
+.table1
+{
+
+  position: relative;
+  top: -550px;
+  left: 690px;
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+ }

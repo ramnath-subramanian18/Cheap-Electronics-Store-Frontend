@@ -1,0 +1,499 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+<body link="green">
+#more {display: none;}
+body
+{background-color: #2E4B86;
+color:white;}
+
+
+
+@media (min-width: 1281px)
+{
+h1
+{text-align:center;
+font-family:arial;
+padding:10px;
+font-size:25px;
+  position: relative;
+  top: 5px;
+  left: -55px;
+    color:white;
+}
+img
+{
+width:35%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 50px;
+  left: 5px;
+     height: 325px;
+  width: 450px;
+    display: auto;
+  max-width: 90%;
+}
+p
+{font-size:40px;
+  position: relative;
+  top: 40px;
+  left: 5px
+}
+
+.button
+{border: white;
+  padding: 18px;
+  color: white;
+  background-color:#D130CC;
+  text-align: center;
+  cursor: pointer;
+  width: 17%;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+  left: 5px
+}
+.button1
+{border: white;
+  padding: 18px;
+  color: white;
+  background-color:orange;
+  text-align: center;
+  cursor: pointer;
+  width: 17%;
+  font-size: 20px;
+position: relative;
+  top: -73px;;
+  left: 270px
+}
+p3
+{position: relative;
+  top: -500px;
+  left: 445px;
+  width: 500px;
+  font-size: 25px;
+    color:white;
+}
+p1
+{position: relative;
+  top: -500px;
+  left: 700px;
+color:white;
+}
+.button6{
+  border: white;
+  padding: 18px;
+  color: white;
+  background-color:#3CB371;
+  text-align: center;
+  cursor: pointer;
+  width: 17%;
+  font-size: 20px;
+    position: relative;
+  top: -160px;
+  left:3px;
+ }
+p50
+{position: relative;
+  top: -120px;
+  left:40px;
+  width: 500px;
+    font-size: 25px;
+color: :white;}
+p8
+{position: relative;
+  top: -125px;
+  left: 9px;
+  width: 500px;
+    color: :white;
+}
+h2
+{position: relative;
+  top: -140px;
+  left: 9px;
+  width: 500px;
+}
+.table
+{position: relative;
+  top: -130px;
+  left: 9px;
+  width: 500px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th
+{
+  font-size: 25px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+}
+td
+{
+border: 1px solid white;
+border-collapse: collapse;
+padding: 15px;
+}
+
+p5
+{position: relative;
+  top: -370px;
+  left: 320px;
+color: :white;}
+.table1
+{
+
+  position: relative;
+  top: -130px;
+  left: 9px;
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    button2
+{border: red;
+  padding: 10px;
+  color: #1FFE06;
+  text-align: center;
+  cursor: pointer;
+  width: 9%;
+  font-size: 20px;
+ position: relative;
+  top: -110px;
+  left: 8px;
+}
+h3
+{
+     position: relative;
+  top: -70px;
+  left: 10px;
+  width: 500px;
+ color: :white;
+    font-size: 25px;
+}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.rating { 
+  border: none;
+  float: left;
+    position: relative;
+  top: -80px;
+  left: -323px;
+  width: 500px;
+}
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.65em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+fieldset, label { margin: 0; padding: 0; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+p10
+{    position: relative;
+  top: 0px;
+  left: -500px;
+  width: 500px;
+ color: :white;}
+.textarea
+{position: relative;
+left:-500px;}
+p11
+{position: relative;
+  top: 50px;
+  left: -360px;
+font-size:20px;
+}
+input[type=text] {
+  width: 30%;
+  padding: 22px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+     position: relative;
+  top: -10px;
+  left: 0px;
+  width: 350px;
+ }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+h1
+{text-align:center;
+font-family:arial;
+padding:10px;
+font-size:25px;
+  position: relative;
+  top: 5px;
+  left: -35px;
+    color:white;
+}
+img
+{
+width:35%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 50px;
+  left: 5px;
+     height: 325px;
+  width: 450px;
+    display: auto;
+  max-width: 90%;
+}
+p
+{font-size:40px;
+  position: relative;
+  top: 40px;
+  left: 5px
+}
+.button
+{border: white;
+  padding: 15px;
+  color: white;
+  background-color:#D130CC;
+  text-align: center;
+  cursor: pointer;
+  width: 42%;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+  left: 5px
+}
+.button1
+{border: white;
+  padding: 15px;
+  color: white;
+  background-color:orange;
+  text-align: center;
+  cursor: pointer;
+  width: 42%;
+  font-size: 20px;
+position: relative;
+  top: -67px;;
+  left: 200px
+}
+p3
+{position: relative;
+  top: 100px;
+  left: -135px;
+  width: 500px;
+  font-size: 25px;
+    color:white;
+}
+p1
+{position: relative;
+  top: 100px;
+  left: 15px;
+color:white;
+}
+.button6{
+  border: white;
+  padding: 15px;
+  color: white;
+  background-color:#3CB371;
+  text-align: center;
+  cursor: pointer;
+  width: 42%;
+  font-size: 20px;
+    position: relative;
+  top: -170px;
+  left:3px;
+ }
+p50
+{position: relative;
+  top: 50px;
+  left: 10px;
+ font-size: 25px;
+color:white;}
+p8
+{position: relative;
+  top: 45px;
+  left: 9px;
+color:white;
+}
+h2
+{position: relative;
+  top: 40px;
+  left: 9px;
+  width: 500px;
+}
+.table
+{position: relative;
+  top: 30px;
+  left: 9px;
+  width: 323px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th
+{
+  font-size: 16px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 16px;
+}
+td
+{
+font-size: 16px;
+border: 1px solid white;
+border-collapse: collapse;
+padding: 16px;
+    
+}
+button2
+{border: red;
+  padding: 10px;
+  color: #1FFE06;
+  text-align: center;
+  cursor: pointer;
+  width: 9%;
+  font-size: 20px;
+ position: relative;
+  top: 40px;
+  left: 8px;
+}
+p5
+{position: relative;
+  top: -110px;
+  left: 320px;
+color: :white;}
+.table1
+{
+
+  position: relative;
+  top: 30px;
+  left: 9px;
+  width: 325px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+button2
+{border: red;
+  padding: 10px;
+  color: #1FFE06;
+  text-align: center;
+  cursor: pointer;
+  width: 9%;
+  font-size: 20px;
+ position: relative;
+  top: 35px;
+  left: 2px;
+}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.rating { 
+  border: none;
+  float: left;
+    position: relative;
+  top: 0px;
+  left: -375px;
+  width: 500px;
+}
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.65em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+h3
+{
+     position: relative;
+  top: 20px;
+  left: 10px;
+  width: 500px;
+ color: :white;
+    font-size: 25px;
+}
+.textarea
+{position: relative;
+left:5px;
+    top:20px;
+   }
+
+
+
+p11
+{position: relative;
+  top: 10px;
+  left: -1px;
+font-size:20px;
+    white-space: nowrap;
+}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+fieldset, label { margin: 0; padding: 0; }
+
+
+/****** Style Star Rating Widget *****/
+
+input[type=text] {
+  width: 30%;
+  padding: 22px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+     position: relative;
+  top: -10px;
+  left: 0px;
+  width: 300px;
+ }
+p9
+{
+    font-size: 25px;
+    position: relative;
+  top: -120px;
+  left: 12px;
+    color: :white;
+}
+}

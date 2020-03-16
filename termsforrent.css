@@ -1,0 +1,201 @@
+body
+{background-color:#25637D;
+width: 1500px;
+color:white;}
+h2
+{ text-align: center;
+color:#F5F5DC;
+font-size:30px;}
+p
+{
+text-align: center;}
+.topnav {
+  overflow: hidden;
+  background-color: #555;
+    
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #555;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width:8%;
+    
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+    
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+    
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text1] {
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 6px;
+  margin-right: 16px;
+  font-size: 17px;
+  width:37%
+}
+.topnav input[type=text1] {
+    border: 1px solid #ccc;
+  }
+.topnav a.active2 {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 6px;
+  margin-right: 26px;
+  font-size:18px;
+  width:8%;
+}
+
+h5
+{font-size: 150%;
+font-size: 70px;
+font-style: oblique;
+ font-weight: 11900;
+color:orangered;
+    text-align: center;
+}
+.thumpsup
+{position: fixed;
+  top: 750px;
+  left:73px;}
+p2
+{
+      cursor: pointer;
+    position: fixed;
+  top: 790px;
+  left:40px;
+font-size: 16px;
+color:white;}
+p3
+{position: fixed;
+  top: 810px;
+  left:3px;
+font-size: 14px;
+color: white
+}
+p14
+{position: fixed;
+  top: 830px;
+  left:34px;
+    color: white;
+font-size: 14px;}
+
+.phone
+{position: fixed;
+  top: 750px;
+  left:380px;}
+p4
+{
+      cursor: pointer;
+    position: fixed;
+  top: 790px;
+  left:360px;
+    color: white;
+font-size: 16px;}
+p5
+{position: fixed;
+  top: 810px;
+  left:325px;
+font-size: 14px;
+color:white;}
+p15
+{position: fixed;
+  top: 830px;
+  left:335px;
+color:white;
+font-size:14px;}
+.truck
+{position: fixed;
+  top: 750px;
+  left:695px;}
+p6
+{
+      cursor: pointer;
+    position: fixed;
+  top: 790px;
+  left:615px;
+font-size: 16px;
+color:white}
+p7
+{position: fixed;
+  top: 810px;
+  left:588px;
+    font-size: 14px;
+    color:white
+}
+span
+{position: fixed;
+  top: 730px;
+  left:1045px;
+color:#C0C0C0;
+font-size: 12px;}
+p8
+{
+      cursor: pointer;
+    position: fixed;
+  top: 790px;
+  left:1022px;
+color:white;
+font-size: 16px;}
+p9
+{position: fixed;
+  top: 810px;
+  left:982px;color:white;
+font-size: 14px}
+p16
+{position: fixed;
+  top: 830px;
+  left:1040px;
+color:white;
+font-size: 14px;}
+.lock
+{position: fixed;
+  top: 750px;
+  left:1320px;}
+p10
+{
+      cursor: pointer;
+    position: fixed;
+  top: 790px;
+  left:1280px;
+font-size: :16px;
+color:white;}
+p11
+{position: fixed;
+  top: 810px;
+  left:1260px;
+color:white;
+font-size:14px;}
+p17
+{position: fixed;
+  top: 830px;
+  left:1230px;
+font-size: 14px;
+color:white;}
+
